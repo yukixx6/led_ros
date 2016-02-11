@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="led_ros" name="led_pub" type="led_pub.py"/>
+	<node pkg="led_ros" name="leds_vel" type="led_sub.py"/>
+	<node pkg="led_ros" name="switch" type="switch.py"/>
+</launch>
